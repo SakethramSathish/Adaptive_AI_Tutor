@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Gemini setup (assumes key is set via environment variable or earlier configuration)
-genai.configure(api_key="AIzaSyDkfPWiU30Wriiltfu1a3SkWoRNWZpcTmc")
+genai.configure(api_key="YOUR_API_KEY")
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 def get_difficulty_level(marks):
